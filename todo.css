@@ -1,0 +1,46 @@
+body{
+    box-sizing: border-box;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.heading{
+    color: rgb(0, 179, 179);
+    margin-bottom: 0.5rem;
+}
+
+#input{
+    outline: 2px solid aqua;
+    border: none;
+    width: 70%;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+.todos {
+    list-style: none;
+    padding: 0%;
+    font-size: x-large;
+    color: rgb(0, 206, 206);
+}
+
+.completed {
+text-decoration: line-through;
+}
+
+button[type=submit] {
+    padding: 0rem 0.7rem;
+    border: 2px solid aqua;
+    margin-top: 5px;
+    background-color: aqua;
+    border-radius: 5px;
+    width: fit-content;
+    color: rgb(1, 49, 49);
+}
+
+@media screen and (max-width: 482px) {
+    #input{
+        width: 90%;
+    }
+    
+}
